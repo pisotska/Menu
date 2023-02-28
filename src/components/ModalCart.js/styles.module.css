@@ -1,0 +1,43 @@
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+    font-size: 2rem;
+    color: rgb(11, 12, 12);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+    font-size: 2rem;
+    color: rgb(164, 130, 6);
+    font-weight: bold;
+}
+
+.order {
+    font-size: 20px;
+    color: #0c0b09;
+    background-color: #f7e7c1;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.order:hover {
+    background-color: #d7be85;
+    box-shadow: 2px 2px 10px rgb(176, 166, 166);
+    cursor: pointer;
+}
+
+.order:active {
+    transform: translateY(2px);
+}
+
+.cart_text {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(3, 78, 3);
+}

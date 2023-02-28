@@ -1,0 +1,44 @@
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 40px;
+    border-radius: 3px;
+    width: 300px;
+    background: transparent;
+    color: rgb(139, 66, 3);
+    padding-left: 5px;
+    margin: 5px auto 5px;
+    border: 2px solid rgb(12, 5, 5);
+    font-size: 15px;
+}
+
+.button {
+    display: block;
+    width: 300px;
+    background: rgb(191, 104, 17);
+    border-radius: 3px;
+    height: 35px;
+    margin: 20px auto 0px;
+    color: rgb(12, 10, 8);
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 20px;
+}
+
+.button:hover {
+    background: rgb(252, 161, 4);
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+}

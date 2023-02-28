@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    box-shadow: #685f41 3px 3px 20px;
+
+}
+
+.menu_item {
+    text-decoration: none;
+    color: #02020a;
+    display: inline-block;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #eb9809;
+}
+
+.menu_item:hover {
+    text-shadow: #d46810 1px 1px 10px;
+    border-bottom: 3px solid #984806;
+    cursor: pointer;
+}
